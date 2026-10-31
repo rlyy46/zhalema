@@ -1,0 +1,24 @@
+名称: APK
+水用-debug.apk: [推, 张 张絋]
+张:
+  构写:
+    运行: 曙
+    过骤:
+      - 用途: 行提与退房@v4
+      - 用途: @v4
+        为: { 中布: 特, java: '17' }
+      - 用途: 安奥ХХнМММ/setup-android@v3
+      - 用途: gradle/actions/setup-gradle@v3
+        为: { 昇 縐和版 月: '8.7' }
+      - 将: 解做法
+        跑过: |
+          价 :$(ls *.zip | 头 诺部 1) -d /tmp/proj
+          “PROJ_DIR=$($( /tmp/proj -name settings.gradle.kts | 备1)” >> $GITHUB_ENV
+      - 将: 编译APK
+        跑过: CD $PROJ_DIR 条 文
+      - 将: 收集
+        跑过: cp $PROJ_DIR/app/build/outputs/apk/debug/app-debug.apk $GITHUB_WORKSPACE/app-debug.apk
+      - 用途: v4
+        为:
+          将: 沙勒玛-阿普拉
+          谯径: 河用德布·阿
